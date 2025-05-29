@@ -7,7 +7,7 @@ Predict housing prices based on real-world data from the Oulu housing market. Th
 
 ---
 
-## 🛠 Tools & Techniques
+## Tools & Techniques
 
 - Python (Pandas, NumPy, Scikit-learn)
 - Jupyter Notebook
@@ -16,9 +16,8 @@ Predict housing prices based on real-world data from the Oulu housing market. Th
 
 ---
 
-## ✨ Key Steps
+## Key Steps
 
-Collected and cleaned housing dataset  
 Performed exploratory data analysis (EDA) to understand variable relationships  
 Engineered features to improve model performance  
 Built and tested multiple regression models  
@@ -27,11 +26,18 @@ Visualized results to highlight insights
 
 ---
 
-## 💡 Key Insights
+## Key Insights from Model
+Model Performance:
+Achieved R² = 0.81 on training data and R² = 0.61 on test data, showing the model explains 61% of price variance on unseen data — a solid performance, with room for improvement through regularization or additional features.
 
-- Identified which factors (e.g., location, size, condition) most influence housing prices  
-- Created visualizations showing price trends and relationships  
-- Achieved strong predictive performance, providing useful estimates for real estate analysis
+Feature Impact:
+Area, year of construction, and number of rooms were the strongest predictors. Apartments with elevators or in good condition showed measurable price premiums.
+
+Market Trend Insight:
+Small apartments (under 40 m²) tend to have a higher price per square meter, reflecting strong demand in compact urban zones.
+
+Visual Takeaways:
+The correlation heatmap highlighted a strong relationship between area and rooms (r = 0.92), while actual vs. predicted plots confirmed the model’s solid mid-range performance but revealed some spread at higher price levels.
 
 ---
 
@@ -43,15 +49,19 @@ Visualized results to highlight insights
 
 ## 📊 Actual vs. Predicted Housing Prices
 ![Actual vs Predicted](Actual_Predicted_House_Price.png)
+Shows how well predicted prices align with actual market prices.
 
 ## 🔥 Correlation Matrix Heatmap
 ![Correlation Matrix](Correlation_Matrix_Heatmap.png)
+Highlights key correlations between variables, e.g., area and rooms, price and year.
 
 ## 📈 True vs. Predicted Prices Over Apartments
 ![Prediction Plot](Prediction_Plot.png)
+Line plot comparing true vs. predicted prices across individual apartments.
 
 ## 📉 Training Loss Curve
 ![Training Loss](Training_Loss_Curve.png)
+Displays model convergence over iterations; zoomed section highlights stabilization.
 
 ---
 
