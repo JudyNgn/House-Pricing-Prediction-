@@ -50,22 +50,22 @@ The correlation heatmap highlighted a strong relationship between area and rooms
 ## 📊 Actual vs. Predicted Housing Prices
 ![Actual vs Predicted](Actual_Predicted_House_Price.png)
 
-Shows how well predicted prices align with actual market prices.
+Shows how well predicted prices align with actual market prices. While most predictions align closely with actual prices, the scatter shows a widening spread at higher price ranges. This suggests the model handles mid-range properties well but may struggle with luxury or outlier-priced apartments. Future work could focus on improving predictions for the high-end segment, perhaps by using specialized models or adding more detailed features (like luxury amenities or specific location factors).
 
 ## 🔥 Correlation Matrix Heatmap
 ![Correlation Matrix](Correlation_Matrix_Heatmap.png)
 
-Highlights key correlations between variables, e.g., area and rooms, price and year.
+Highlights key correlations between variables, e.g., area and rooms, price and year. The strong correlation between area and rooms is expected and validates the dataset. However, moderate correlations with price suggest there’s no single dominant predictor — indicating a need for multi-feature modeling.
 
 ## 📈 True vs. Predicted Prices Over Apartments
 ![Prediction Plot](Prediction_Plot.png)
 
-Line plot comparing true vs. predicted prices across individual apartments.
+Line plot comparing true vs. predicted prices across individual apartments. The parallel movement of true and predicted prices shows the model is capturing the overall trend well.
 
 ## 📉 Training Loss Curve
 ![Training Loss](Training_Loss_Curve.png)
 
-Displays model convergence over iterations; zoomed section highlights stabilization.
+Displays model convergence over iterations; zoomed section highlights stabilization. The loss curve shows steady convergence, which is positive. The zoomed-in section reveals a plateau, meaning the model is no longer learning significantly after a point. This suggests the current training setup is well-tuned, but it might be worth experimenting with early stopping or learning rate adjustments to prevent overtraining. 
 
 ---
 
