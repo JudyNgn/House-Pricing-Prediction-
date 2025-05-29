@@ -47,7 +47,7 @@ The correlation heatmap highlighted a strong relationship between area and rooms
 ## 📁 Project Files
 
 - `real_estate_model.ipynb` → Main Jupyter notebook with full analysis and modeling steps  
-- `oulu_apartment_data_for_analysis/` → Folder for dataset files 
+- `oulu_apartment_data_for_analysis` → Main dataset files 
 - `plots/` → Key visualizations and output charts
 
 ## Actual vs. Predicted Housing Prices
