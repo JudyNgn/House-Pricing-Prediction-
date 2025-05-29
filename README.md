@@ -37,8 +37,8 @@ Visualized results to highlight insights
 
 ## 📁 Project Files
 
-- `housing_price_prediction.ipynb` → Main Jupyter notebook with full analysis and modeling steps  
-- `data/` → Folder for dataset files 
+- `real_estate_model.ipynb` → Main Jupyter notebook with full analysis and modeling steps  
+- `oulu_apartment_data_for_analysis/` → Folder for dataset files 
 - `plots/` → Key visualizations and output charts
 
 ---
