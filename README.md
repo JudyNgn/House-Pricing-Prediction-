@@ -41,6 +41,18 @@ Visualized results to highlight insights
 - `oulu_apartment_data_for_analysis/` → Folder for dataset files 
 - `plots/` → Key visualizations and output charts
 
+## 📊 Actual vs. Predicted Housing Prices
+![Actual vs Predicted](Actual_Predicted_House_Price.png)
+
+## 🔥 Correlation Matrix Heatmap
+![Correlation Matrix](Correlation_Matrix_Heatmap.png)
+
+## 📈 True vs. Predicted Prices Over Apartments
+![Prediction Plot](Prediction_Plot.png)
+
+## 📉 Training Loss Curve
+![Training Loss](Training_Loss_Curve.png)
+
 ---
 
 ## 🏆 Outcome
